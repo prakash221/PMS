@@ -35,21 +35,21 @@
 
 
 
-		  // console.log(pan);
-		  // $.ajax({
-		  // 	url: "https://vctsdri.dri.gov.np/common/login_api",
-		  // 	type: "GET",
-		  // 	dataType: "html",
-    //         data: {'pan': pan},
-            
-    //         success: function(resp)
-    //         {
-    //         	console.log(resp);
-    //         }
-		  // });
+		  console.log(pan);
+		   $.ajax({
+			   	url: "https://vctsdri.dri.gov.np/common/login_api",
+			   	type: "GET",
+			   	dataType: "html",
+	        	   data: {'pan': pan},
+	          
+	            success: function(resp)
+	            {
+	            	console.log(resp);
+	            }
+		  	});
 
 		   
-https://admin.dishhome.com.np/api/getCustomerIdByCasId?cas_id=71911889203
+	//https://admin.dishhome.com.np/api/getCustomerIdByCasId?cas_id=71911889203
 
 		});
 
